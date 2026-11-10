@@ -1040,7 +1040,7 @@ function renderGrid(){
 
 /* ---------- detail sheet ---------- */
 const FIELD_GROUPS = [
-  { label:'Overview', fields:['Client','Family Office','Project Type','Address','Architectural Style'] },
+  { label:'Overview', fields:['Client','Family Office','Project Type','Address','Architectural Style','Warehouse Storage Location'] },
   { label:'Scope & budget', fields:['Interior Sq. Footage','Exterior Sq. Footage','Furniture Budget','Hourly Budget','Mark-up %','Retainer Schedule'] },
   { label:'Team', fields:['Project Manager - Name','Project Designer - Name','Design Assistant - Name','Expeditor'] },
   { label:'Vendors', fields:["Owner's Rep",'Builder','Architect','Landscape Architect','Lighting Designer'] },
@@ -1073,7 +1073,7 @@ const MASTER_COLUMNS = ['Client','Family Office','Project Type','Address',
   'Mark-up %','Retainer Schedule','Architectural Style','Project Manager - Name',
   'Project Designer - Name','Design Assistant - Name',"Owner's Rep",'Builder','Architect',
   'Landscape Architect','Lighting Designer','Current Phase','Next Major Milestone',
-  'Project Install Date','How did you find us?','Expeditor','Photographer','Stylist','Credit List'];
+  'Project Install Date','How did you find us?','Expeditor','Photographer','Stylist','Credit List','Warehouse Storage Location'];
 const PM_ATTR_FIELDS = FIELD_GROUPS.flatMap(g => g.fields);
 
 function styleHeaderCell(cell){
