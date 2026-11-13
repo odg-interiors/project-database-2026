@@ -25,6 +25,7 @@
   --dana-dot:#4A7FA6;     --dana-fill:#E6F0F7; --dana-line:#B7D3E6;
   --undetermined-dot:#808080; --undetermined-fill:#EFEFEF; --undetermined-line:#D4D4D4;
   --archived-dot:#A8A29A;     --archived-fill:#F4F2EE;    --archived-line:#DEDAD2;
+  --staci-dot:#2F9C95;        --staci-fill:#E2F4F2;       --staci-line:#B0DDD9;
   --ohara-dot:#8A6D3B;        --ohara-fill:#F3E9D6;       --ohara-line:#E3D2AC;
 }
 
@@ -862,11 +863,12 @@ const TEAMS = {
   'Charlene':{ dot:'var(--charlene-dot)', fill:'var(--charlene-fill)', line:'var(--charlene-line)' },
   'Jinny':   { dot:'var(--jinny-dot)',    fill:'var(--jinny-fill)',    line:'var(--jinny-line)' },
   'Dana':    { dot:'var(--dana-dot)',     fill:'var(--dana-fill)',     line:'var(--dana-line)' },
+  'Staci':   { dot:'var(--staci-dot)',    fill:'var(--staci-fill)',    line:'var(--staci-line)' },
   'Ohara Davies-Gaetano': { dot:'var(--ohara-dot)', fill:'var(--ohara-fill)', line:'var(--ohara-line)' },
   'Undetermined': { dot:'var(--undetermined-dot)', fill:'var(--undetermined-fill)', line:'var(--undetermined-line)' },
   'Archived': { dot:'var(--archived-dot)', fill:'var(--archived-fill)', line:'var(--archived-line)' },
 };
-const TEAM_ORDER = ['Olivia','Daniela','Charlene','Jinny','Dana','Ohara Davies-Gaetano','Undetermined','Archived'];
+const TEAM_ORDER = ['Olivia','Daniela','Charlene','Jinny','Dana','Staci','Ohara Davies-Gaetano','Undetermined','Archived'];
 
 let activeTeam = 'All';
 let searchTerm = '';
@@ -1066,7 +1068,7 @@ const SELECT_FIELDS = {
 /* ---------- Excel export ---------- */
 const TEAM_HEX = {
   'Olivia':'FFD9E8', 'Daniela':'D9F2D9', 'Charlene':'FFE0C2',
-  'Jinny':'E6D9F2', 'Dana':'D9EAF7', 'Ohara Davies-Gaetano':'F3E9D6', 'Undetermined':'EFEFEF', 'Archived':'F4F2EE',
+  'Jinny':'E6D9F2', 'Dana':'D9EAF7', 'Staci':'D5F0ED', 'Ohara Davies-Gaetano':'F3E9D6', 'Undetermined':'EFEFEF', 'Archived':'F4F2EE',
 };
 const MASTER_COLUMNS = ['Client','Family Office','Project Type','Address',
   'Interior Sq. Footage','Exterior Sq. Footage','Furniture Budget','Hourly Budget',
